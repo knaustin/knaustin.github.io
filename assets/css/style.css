@@ -2,6 +2,7 @@ body {
     background-image: url(../images/full-bloom.png);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    margin-bottom: 60px;
 }
 
 .nav, li a, .navbar-brand {
@@ -10,13 +11,23 @@ body {
     text-decoration: none;
 }
 
-.footer {
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
+  body {
+    margin-bottom: 10%; 
+  }
+
+  .footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 45px; 
     line-height: 45px; 
-}
+  }
+  
   
 .copyright {
     font-family: 'Times New Roman', Times, serif;
@@ -29,4 +40,27 @@ body {
 
 .container {
     margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.textbox {
+    background-color: #ffffff;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    line-height: 1.5;
+    color: #777777;
+}
+
+h2 {
+    color: #4AAAA5;
+    border-bottom: #dddddd solid 3px;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px 15px 15px 0px;
+}
+
+.img-thumbnail {
+    height: 250px;
+    width: 300px;
 }
