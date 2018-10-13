@@ -26,3 +26,7 @@ body {
     border-top: #4AAAA5 5px solid;
     font-size: 10px;
 }
+
+.container {
+    margin-top: 50px;
+}
